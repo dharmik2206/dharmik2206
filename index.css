@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.login {
+    margin:auto;
+    border: 2px solid black;
+    height: 500px;
+    width: 400px;
+}
+
+.head{
+    padding-top: 30px;
+    text-align: center;
+}
+
+label{
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+#text,#password,#check {
+    margin-left: 20px;
+}
+
+.btn1 {
+    height: 30px;
+    width: 200px;
+    margin: 20px 100px 50px 100px ;
+}
+
+.second {
+    border: 1px solid black;
+    margin: 0px 20px;
+}
+
+.login2{
+    margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.icon{
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: transparent;
+    height: 30px;
+}

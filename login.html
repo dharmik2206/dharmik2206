@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contanir">
+        <div class="login">
+            <h1 class="head">Logo</h1><br><br><br>
+
+            <label>Username</label><br>
+            <input type="text" name="text" id="text"><br><br>
+            <label>Password</label><br>
+            <input id="password" type="password"><br><br>
+            <input type="checkbox"  id="check">  <span>check the password</span><br>
+            <button class="btn1">Login</button>
+            <div class="second">
+
+            </div><br>
+            <img src="img/3D_Square_with_Facebook_Logo.jpg" alt="jpg" srcset="" class="icon">
+            <a href="https://www.facebook.com/" class="login2">Log in with facebook</a>
+        </div>
+    </div>
+</body>
+    <script>   
+        let check = document.getElementById("check");
+        let password = document.getElementById("password");
+
+        check.onclick = function(){
+            if(password.type == "password"){
+                password.type = "text";
+            }
+            else {
+                password.type = "password";
+            }
+        }
+    </script>
+</html>
